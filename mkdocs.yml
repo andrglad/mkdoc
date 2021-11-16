@@ -10,5 +10,5 @@ nav:
         - 'Writing your docs': 'first.md'
         - 'Styling your docs': 'second.md'
     - About:
-        - 'License': 'tabs.md'
+        - 'License': 'topic.html'
         - 'Release Notes': 'User_guide.md'
