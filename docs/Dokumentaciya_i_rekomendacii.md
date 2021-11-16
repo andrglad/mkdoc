@@ -22,8 +22,8 @@
 если установка произведена On-Premises. Для перехода в соответствующий
 раздел необходимо выбрать его в правом верхнем углу при нажатии на
 иконку
-«`<img alt="Рисунок 64" height="17.9" src="/img/UG_files/image116.png" width="19.3" />».
-<img alt="Рисунок 63" height="182" src="/img/UG_files/image117.png" width="25%" />
+«`<img alt="Рисунок 64" height="17.9" src="/smimg/image116.png" width="19.3" />».
+<img alt="Рисунок 63" height="182" src="/smimg/image117.png" width="25%" />
 ``
 </p>
 ```
