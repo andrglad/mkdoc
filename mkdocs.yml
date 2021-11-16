@@ -19,6 +19,7 @@ nav:
     - Работа с приложением:
       - Основное меню: Osnovnoe_menu.md
       - Проекты:
+        - Работа с проектами: Projects.md
         - Правила: Pravila.md
         - Профиль: Profile.md
         - Результаты сканирований: Rezultaty_skanirovanij.md
