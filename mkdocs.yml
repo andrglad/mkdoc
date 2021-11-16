@@ -5,10 +5,27 @@ theme:
   language: ru
 
 nav:
-    - Home: 'index.md'
-    - 'Руководство пользвателя':
-        - 'Руководство пользователя': 'Rukovodstvo_polzovatelya.md'
+    - Home: 'Rukovodstvo_polzovatelya.md'
+    - 'Введение':
         - 'О продукте': 'O_produkte.md'
+        - 'Требования к рабочему месту пользователя': 'Trebovaniya_k_rabochemu_mestu_polzovatelya.md'
+    - Работа с приложением:
+        - 'Аутентификация пользователя': 'Autentifikaciya_polzovatelya.md'
+        - Основное меню: 'Osnovnoe_menu.md'
+        - Проекты
+        - Профиль
+        - Результаты сканирований
+        - Запуск сканирования
+        - Тест кейсы
+        - Требования
+        - Профиль пользователя
+        - Документация и рекомендации
     - About:
         - 'License': 'topic.html'
         - 'Release Notes': 'User_guide.md'
+
+plugins:
+  - search:
+      lang: # 
+        - en
+        - ru
