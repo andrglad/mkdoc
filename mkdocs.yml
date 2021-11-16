@@ -7,16 +7,31 @@ theme:
     - navigation.indexes
     - content.tabs.link
     - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
 
 nav:
-  - User Guide: 
-    - ug/index.md
-    - Основные понятия: ug/Osnovnye_ponyatiya.md
-    - О продукте: ug/O_produkte.md
-    - Требования к рабочему месту пользователя: ug/Trebovaniya_k_rabochemu_mestu_polzovatelya.md
-  - Введение:
-    - ug/index.md
-    - Page 3: ug/page3.md
+  - Руководство пользователя:
+    - Основные понятия: Osnovnye_ponyatiya.md
+    - О продукт: O_produkte.md
+    - Требования к рабочему месту пользователя: Trebovaniya_k_rabochemu_mestu_polzovatelya.md
+    - Работа с приложением:
+      - Аутентификация пользователя: Autentifikaciya_polzovatelya.md
+      - Основное меню: Osnovnoe_menu.md
+      - Проекты:
+        - Правила: Pravila.md
+        - Профиль: Profile.md
+        - Результаты сканирований: Rezultaty_skanirovanij.md
+        - Запуск сканирования:
+          - Запуск сканирования: Zapusk_skanirovaniya.md
+          - Автоматическое сканирование: Avtomaticheskoe_skanirovanie.md
+          - Ручное сканирование: Ruchnoe_skanirovanie.md
+          - Запуск сканирования из командной строки: Zapusk_skanirovaniya_iz_komandnoj_stroki.md
+          - Запуск сканирования из систем сборки: Zapusk_skanirovaniya_iz_sistem_sborki.md
+        - Тест кейсы: Spisok_test_kejsov.md
+        - Требования: Trebovaniya.md
+        - Профиль пользователя: Profil_polzovatelya.md
+        - Документация и рекомендации: Dokumentaciya_i_rekomendacii.md
 
 plugins:
   - search:
