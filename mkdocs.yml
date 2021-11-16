@@ -3,13 +3,3 @@ site_name: Test MkDocs
 theme:
   name: material
   language: ru
-  custom_dir: overrides
-  palette: # 
-    - scheme: default
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-    - scheme: slate # 
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
