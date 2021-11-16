@@ -1,22 +1,4 @@
-```{=html}
-<?xml version="1.0" encoding="utf-8" ?>
-```
-\<!DOCTYPE html>
-```{=html}
-<html xmlns="http://www.w3.org/1999/xhtml">
-```
-```{=html}
-<head>
-```
-```{=html}
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-```
-```{=html}
-<meta name="generator" content="Adobe RoboHelp 2020" />
-```
-```{=html}
-<title>
-```
+
 Требования
 ```{=html}
 </title>
@@ -73,15 +55,7 @@
 ```
 При редактировании существующего стандарта требований можно провести
 несколько операций:
-```{=html}
-</p>
-```
-```{=html}
-<ul class="Disc">
-```
-```{=html}
-<li class="a0">
-```
+
 Изменить название стандарта.
 ```{=html}
 </li>

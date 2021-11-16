@@ -1,22 +1,4 @@
-```{=html}
-<?xml version="1.0" encoding="utf-8" ?>
-```
-\<!DOCTYPE html>
-```{=html}
-<html xmlns="http://www.w3.org/1999/xhtml">
-```
-```{=html}
-<head>
-```
-```{=html}
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-```
-```{=html}
-<meta name="generator" content="Adobe RoboHelp 2020" />
-```
-```{=html}
-<title>
-```
+
 Результаты сканирований
 ```{=html}
 </title>
@@ -70,15 +52,7 @@
 В списке отображаются сканирования, отсортированные по
 `<strong>`{=html}Id`</strong>`{=html} сканирования. В таблице
 присутствует следующая информация:
-```{=html}
-</p>
-```
-```{=html}
-<ul class="Disc">
-```
-```{=html}
-<li class="a0">
-```
+
 `<strong>`{=html}Id`</strong>`{=html} --- внутренний идентификатор
 сканирования.
 ```{=html}
@@ -316,15 +290,7 @@
 <p class="a5">
 ```
 На этой вкладке представлена общая информация по сканированию:
-```{=html}
-</p>
-```
-```{=html}
-<ul class="Disc">
-```
-```{=html}
-<li class="a0">
-```
+
 `<strong>`{=html}Название пакета`</strong>`{=html} --- имя приложения в
 системе.
 ```{=html}
@@ -487,15 +453,7 @@
 ```
 На вкладке `<strong>`{=html}Дефекты`</strong>`{=html} представлены
 следующие сведения о дефекте:
-```{=html}
-</p>
-```
-```{=html}
-<ul class="Disc">
-```
-```{=html}
-<li class="a0">
-```
+
 ID дефекта в системе.
 ```{=html}
 </li>
@@ -687,15 +645,7 @@ style="color: #0000FF"}[[]{style="text-align:left;"}]{style="color:#0000ff;"}`</
 <p class="a0-no-list" style="text-align: center">
 ```
 `<img src="assets/images/image77.png" />`{=html}
-```{=html}
-</p>
-```
-```{=html}
-<ul class="Disc">
-```
-```{=html}
-<li class="a0">
-```
+
 Место возникновения дефекта. Если обнаружено несколько уязвимостей
 одного типа, они группируются в один дефект, а справа от данного поля
 появляются стрелки, с помощью которых можно переходить между

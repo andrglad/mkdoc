@@ -1,22 +1,4 @@
-```{=html}
-<?xml version="1.0" encoding="utf-8" ?>
-```
-\<!DOCTYPE html>
-```{=html}
-<html xmlns="http://www.w3.org/1999/xhtml">
-```
-```{=html}
-<head>
-```
-```{=html}
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-```
-```{=html}
-<meta name="generator" content="Adobe RoboHelp 2020" />
-```
-```{=html}
-<title>
-```
+
 Профиль
 ```{=html}
 </title>
@@ -158,15 +140,7 @@
 ```
 На первой вкладке `<strong>`{=html}Профиль`</strong>`{=html}
 представлена общая информация:
-```{=html}
-</p>
-```
-```{=html}
-<ul class="Disc">
-```
-```{=html}
-<li class="a0">
-```
+
 Имя.
 ```{=html}
 </li>
@@ -213,15 +187,7 @@
 <p class="a1">
 ```
 На этой вкладке можно отредактировать следующие параметры:
-```{=html}
-</p>
-```
-```{=html}
-<ul class="Disc">
-```
-```{=html}
-<li class="a0">
-```
+
 В поле `<strong>`{=html}Имя`</strong>`{=html} отредактировать имя
 профиля.
 ```{=html}
@@ -320,15 +286,7 @@
 ```
 Для добавления нового профиля в проекте нажмите на кнопку
 `<strong>`{=html}Добавить профиль`</strong>`{=html}.
-```{=html}
-</p>
-```
-```{=html}
-<ul class="Disc">
-```
-```{=html}
-<li class="a0">
-```
+
 ‎В появившемся окне `<strong>`{=html}Добавление
 профиля`</strong>`{=html} введите название профиля и его краткое
 описание и нажмите кнопку `<strong>`{=html}Добавить`</strong>`{=html} в
@@ -431,15 +389,7 @@
 <p class="a1">
 ```
 Настройки для каждого модуля включают:
-```{=html}
-</p>
-```
-```{=html}
-<ul class="Disc">
-```
-```{=html}
-<li class="a0">
-```
+
 `<strong>`{=html}Имя`</strong>`{=html} модуля.
 ```{=html}
 </li>

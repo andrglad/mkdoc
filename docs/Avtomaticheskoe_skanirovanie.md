@@ -1,57 +1,10 @@
-```{=html}
-<?xml version="1.0" encoding="utf-8" ?>
-```
-\<!DOCTYPE html>
-```{=html}
-<html xmlns="http://www.w3.org/1999/xhtml">
-```
-```{=html}
-<head>
-```
-```{=html}
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-```
-```{=html}
-<meta name="generator" content="Adobe RoboHelp 2020" />
-```
-```{=html}
-<title>
-```
+# Автоматическое сканирование
+
 Автоматическое сканирование
-```{=html}
-</title>
-```
-```{=html}
-<meta name="topic-status" content="Draft" />
-```
-`<link rel="stylesheet" type="text/css" href="assets/css/default.css" />`{=html}
-```{=html}
-</head>
-```
-```{=html}
-<body>
-```
-```{=html}
-<h3 data-list-level="3">
-```
-Автоматическое сканирование
-```{=html}
-</h3>
-```
-```{=html}
-<p>
-```
+
 Для запуска сканирования в автоматическом режиме необходимо сделать
 следующие шаги:
-```{=html}
-</p>
-```
-```{=html}
-<ul class="Disc">
-```
-```{=html}
-<li class="a0">
-```
+
 Выбрать и загрузить файл мобильного приложения с расширением *.apk или
 *.ipa, для которого будет проводиться сканирование.`<br />`{=html}
 `<strong>`{=html}Примечание:`</strong>`{=html} Если пакет с выбранным

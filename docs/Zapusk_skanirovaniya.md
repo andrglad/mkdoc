@@ -1,22 +1,4 @@
-```{=html}
-<?xml version="1.0" encoding="utf-8" ?>
-```
-\<!DOCTYPE html>
-```{=html}
-<html xmlns="http://www.w3.org/1999/xhtml">
-```
-```{=html}
-<head>
-```
-```{=html}
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-```
-```{=html}
-<meta name="generator" content="Adobe RoboHelp 2020" />
-```
-```{=html}
-<title>
-```
+
 Запуск сканирования
 ```{=html}
 </title>
@@ -59,15 +41,7 @@
 ```
 На странице `<strong>`{=html}Запуск сканирования`</strong>`{=html}
 представлены необходимые поля для запуска анализа приложения:
-```{=html}
-</p>
-```
-```{=html}
-<ul class="Disc">
-```
-```{=html}
-<li class="a0">
-```
+
 Кнопка `<strong>`{=html}Выбрать файл`</strong>`{=html} справа вверху
 позволяет выбрать файл приложения (*.apk или *.ipa) для загрузки. Пока
 файл приложения не выбран, остальные поля на данной странице недоступны
