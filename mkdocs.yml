@@ -11,4 +11,4 @@ nav:
         - 'Styling your docs': 'second.md'
     - About:
         - 'License': 'tabs.md'
-        - 'Release Notes': 'second.md'
+        - 'Release Notes': 'User_guide.md'
