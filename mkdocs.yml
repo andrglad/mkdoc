@@ -6,9 +6,9 @@ theme:
 
 nav:
     - Home: 'index.md'
-    - 'User Guide':
-        - 'Writing your docs': 'first.md'
-        - 'Styling your docs': 'second.md'
+    - 'Руководство пользвателя':
+        - 'Руководство пользователя': 'Rukovodstvo_polzovatelya.md'
+        - 'О продукте': 'O_produkte.md'
     - About:
         - 'License': 'topic.html'
         - 'Release Notes': 'User_guide.md'
