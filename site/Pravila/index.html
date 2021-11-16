@@ -1,0 +1,1139 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.6">
+    
+    
+      
+        <title>Правила - Test MkDocs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.a57b2b03.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Test MkDocs" class="md-header__button md-logo" aria-label="Test MkDocs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Test MkDocs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Правила
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Osnovnye_ponyatiya/" class="md-tabs__link md-tabs__link--active">
+        Руководство пользователя
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Test MkDocs" class="md-nav__button md-logo" aria-label="Test MkDocs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Test MkDocs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Руководство пользователя
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Руководство пользователя" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Руководство пользователя
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Osnovnye_ponyatiya/" class="md-nav__link">
+        Основные понятия
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../O_produkte/" class="md-nav__link">
+        О продукте
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Trebovaniya_k_rabochemu_mestu_polzovatelya/" class="md-nav__link">
+        Требования к рабочему месту пользователя
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4" type="checkbox" id="__nav_1_4" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4">
+          Работа с приложением
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Работа с приложением" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          Работа с приложением
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Autentifikaciya_polzovatelya/" class="md-nav__link">
+        Аутентификация пользователя
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Osnovnoe_menu/" class="md-nav__link">
+        Основное меню
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_3" type="checkbox" id="__nav_1_4_3" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4_3">
+          Проекты
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Проекты" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Проекты
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Правила
+      </a>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Profile/" class="md-nav__link">
+        Профиль
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Rezultaty_skanirovanij/" class="md-nav__link">
+        Результаты сканирований
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_3_4" type="checkbox" id="__nav_1_4_3_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4_3_4">
+          Запуск сканирования
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Запуск сканирования" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          Запуск сканирования
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Zapusk_skanirovaniya/" class="md-nav__link">
+        Запуск сканирования
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Avtomaticheskoe_skanirovanie/" class="md-nav__link">
+        Автоматическое сканирование
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ruchnoe_skanirovanie/" class="md-nav__link">
+        Ручное сканирование
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Zapusk_skanirovaniya_iz_komandnoj_stroki/" class="md-nav__link">
+        Запуск сканирования из командной строки
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Zapusk_skanirovaniya_iz_sistem_sborki/" class="md-nav__link">
+        Запуск сканирования из систем сборки
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Spisok_test_kejsov/" class="md-nav__link">
+        Тест кейсы
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Trebovaniya/" class="md-nav__link">
+        Требования
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Profil_polzovatelya/" class="md-nav__link">
+        Профиль пользователя
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dokumentaciya_i_rekomendacii/" class="md-nav__link">
+        Документация и рекомендации
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Правила</h1>
+                
+                <pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+</code></pre>
+<p>\&lt;!DOCTYPE html&gt;</p>
+<pre><code>&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+</code></pre>
+<pre><code>&lt;head&gt;
+</code></pre>
+<pre><code>&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+</code></pre>
+<pre><code>&lt;meta name=&quot;generator&quot; content=&quot;Adobe RoboHelp 2020&quot; /&gt;
+</code></pre>
+<pre><code>&lt;title&gt;
+</code></pre>
+<p>Правила</p>
+<pre><code>&lt;/title&gt;
+</code></pre>
+<pre><code>&lt;meta name=&quot;topic-status&quot; content=&quot;Draft&quot; /&gt;
+</code></pre>
+<p><code>&lt;link rel="stylesheet" type="text/css" href="assets/css/default.css" /&gt;</code>{=html}</p>
+<pre><code>&lt;/head&gt;
+</code></pre>
+<pre><code>&lt;body&gt;
+</code></pre>
+<pre><code>&lt;h3&gt;
+</code></pre>
+<p>Правила</p>
+<pre><code>&lt;/h3&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p>На данной вкладке представлены правила анализа уязвимостей, которые
+применяются для выбранного проекта. В общем случае правила
+соответствуют определенным на уровне организации (см.
+раздел <code>&lt;a href="../aag/pravila_analiza_na_urovne_organizacii.htm" title="Правила анализа на уровне Организации"&gt;</code>{=html}Правила
+анализа на уровне Организации<code>&lt;/a&gt;</code>{=html} в Руководстве прикладного
+администратора), но есть возможность изменить или добавить правила в
+соответствии со спецификой сканируемого приложения. Необходимо отметить,
+что правила, добавленные непосредственно в проекте, будут применяться
+только в рамках этого проекта.</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p><code>&lt;img height="1147" src="assets/images/image37.png" width="100%" /&gt;</code>{=html}</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;h4 data-list-level=&quot;4&quot;&gt;
+</code></pre>
+<p>Переопределение правил анализа</p>
+<pre><code>&lt;/h4&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p>На странице <code>&lt;strong&gt;</code>{=html}Проект<code>&lt;/strong&gt;</code>{=html} на вкладке
+<code>&lt;strong&gt;</code>{=html}Правила<code>&lt;/strong&gt;</code>{=html} представлены правила анализа
+собранных данных для поиска уязвимостей. На этой вкладке возможно
+добавить, изменить или удалить существующее правило анализа для
+конкретного проекта. То есть, заданное на этой вкладке новое или
+измененное правило будет применяться в рамках только этого проекта, а не
+для всех проектов данной Организации.</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;h4 data-list-level=&quot;4&quot;&gt;
+</code></pre>
+<p>Описание работы правил анализа</p>
+<pre><code>&lt;/h4&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p>Основная цель применения правил анализа --- модификация системы под
+особенности своего приложения для эффективной работы по поиску
+уязвимостей. Каждое приложение и его данные уникальны по формату и
+содержанию и применение кастомизированных правил анализа позволяет
+максимально увеличить покрытие системой всех возможных кейсов для поиска
+уязвимостей для каждого конкретного приложения.</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p>Правила анализа, по которым происходит поиск части уязвимостей,
+представляют собой набор строк или регулярных выражений, которые
+необходимо искать в собранных ‎в ходе сканирования приложения данных.
+Каждое правило определяет, какую строку или регулярное выражение искать,
+в данных каких модулей и в каком месте/каких форматах данных. Такой
+подход позволяет значительно сократить количество ложных срабатываний
+при поиске уязвимостей.</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p>В системе существует два вида правил анализа:</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;ul class=&quot;Disc&quot;&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p>Внутренние правила поиска уязвимостей, не подлежащие настройке и
+недоступные пользователю для просмотра и редактирования. Они не
+представлены на вкладке <code>&lt;strong&gt;</code>{=html}Правила<code>&lt;/strong&gt;</code>{=html}.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p>Правила, которые занимаются поиском чувствительной информации. Как раз
+они ‎и представлены на вкладке <code>&lt;strong&gt;</code>{=html}Правила<code>&lt;/strong&gt;</code>{=html}
+и описаны в этом разделе. Эти правила пользователь системы может
+модифицировать и настроить под работу со своим приложением.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;/ul&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p>На вкладке <code>&lt;strong&gt;</code>{=html}Правила<code>&lt;/strong&gt;</code>{=html} каждое правило
+анализа представлено отдельной строкой в левой части экрана. Строка
+правила имеет следующие поля:</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;ul class=&quot;Disc&quot;&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p>Индикатор состояния правила. Если в этом поле стоит значок
+«<code>&lt;img alt="Picture 106" height="14.9" src="assets/images/UG_files/image15.png" width="15.7" /&gt;</code>{=html}»,
+то правило является активным и будет применяться при анализе собранных
+данных для поиска уязвимостей. Если в этом поле стоит значок
+«<code>&lt;img alt="Picture 140" height="12.3" src="assets/images/UG_files/image16.png" width="12.3" /&gt;</code>{=html}»,
+то правило является неактивным ‎и не будет применяться при анализе
+собранных данных для поиска уязвимостей.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p>Имя правила для более удобной навигации.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;/ul&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a0&quot; style=&quot;text-align: center&quot;&gt;
+</code></pre>
+<p><code>&lt;img height="610" src="assets/images/image38.png" width="50%" /&gt;</code>{=html}</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p>Выбранное правило подсвечивается и в правой части экрана отображаются
+детали:</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;ul class=&quot;Disc&quot;&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p><code>&lt;strong&gt;</code>{=html}Имя<code>&lt;/strong&gt;</code>{=html} --- имя правила для более удобной
+навигации.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p><code>&lt;strong&gt;</code>{=html}Описание<code>&lt;/strong&gt;</code>{=html} --- описание правила.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p><code>&lt;strong&gt;</code>{=html}Строка поиска<code>&lt;/strong&gt;</code>{=html} --- строка или
+регулярное выражение для поиска конфиденциальной информации.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p><code>&lt;strong&gt;</code>{=html}Модули<code>&lt;/strong&gt;</code>{=html} --- модули системы, для
+которых будет применяться данное правило.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p><code>&lt;strong&gt;</code>{=html}Место поиска<code>&lt;/strong&gt;</code>{=html} --- где именно искать
+необходимую информацию, в каких файлах ‎и форматах данных.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;/ul&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a0&quot; style=&quot;text-align: center&quot;&gt;
+</code></pre>
+<p><code>&lt;img height="845" src="assets/images/image39.png" width="50%" /&gt;</code>{=html}</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p>Рассмотрим, как работают правила анализа на примере одного из правил.</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p><code>&lt;img height="1155" src="assets/images/image41.png" width="100%" /&gt;</code>{=html}</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p>Это правило анализа в данный момент является активным и называется
+«Пароль». ‎Оно определяет, что следующие паттерны:</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;ul class=&quot;Disc&quot;&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p>Регулярные выражения вида
+<code>&lt;strong&gt;</code>{=html}pin(?:[_-]?code)?<code>&lt;/strong&gt;</code>{=html}.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p>Строка <code>&lt;strong&gt;</code>{=html}passphrase<code>&lt;/strong&gt;</code>{=html}.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p>Строка <code>&lt;strong&gt;</code>{=html}password<code>&lt;/strong&gt;</code>{=html}.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p>Строка <code>&lt;strong&gt;</code>{=html}passwd<code>&lt;/strong&gt;</code>{=html}.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p>Строка <code>&lt;strong&gt;</code>{=html}paswd<code>&lt;/strong&gt;</code>{=html}.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;/ul&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a0&quot;&gt;
+</code></pre>
+<p>Они будут искаться в данных, собранных всеми семнадцатью модулями
+системы (эти модули были выбраны в поле Модули), в следующих местах (эти
+значения были выбраны в поле Место поиска):</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;ul class=&quot;Disc&quot;&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p>Имя XML-тега.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p>Имя ключа в паре key=value.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;/ul&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p>Пользователь имеет возможность сделать неактивным, отредактировать или
+удалить ‎это правило в случае необходимости.</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p>Для удобства работы с правилами существует возможность выбрать и
+применить ‎для отображаемых правил фильтр в верхней части экрана по
+нажатию на кнопку <code>&lt;strong&gt;</code>{=html}Фильтр<code>&lt;/strong&gt;</code>{=html}.</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p><code>&lt;img height="579" src="assets/images/image42.png" width="100%" /&gt;</code>{=html}</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p>В появившемся поле можно выбрать из выпадающих списков одно или
+несколько значений для фильтрации по параметрам
+<code>&lt;strong&gt;</code>{=html}Модули<code>&lt;/strong&gt;</code>{=html} и <code>&lt;strong&gt;</code>{=html}Место
+поиска<code>&lt;/strong&gt;</code>{=html}. Фильтр может быть очищен по нажатию кнопки
+<code>&lt;strong&gt;</code>{=html}Очистить фильтр<code>&lt;/strong&gt;</code>{=html} справа вверху. При
+повторном нажатии на кнопку <code>&lt;strong&gt;</code>{=html}Фильтр <code>&lt;/strong&gt;</code>{=html}в
+левом вернем углу, поле фильтрации будет свернуто.</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p><code>&lt;img src="assets/images/image43.png" /&gt;</code>{=html}</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;h4 data-list-level=&quot;4&quot;&gt;
+</code></pre>
+<p>Добавление / редактирование правил анализа</p>
+<pre><code>&lt;/h4&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p>Редактирование правил анализа может быть произведено на вкладке
+<code>&lt;strong&gt;</code>{=html}Правила<code>&lt;/strong&gt;</code>{=html}. Для редактирования выберите
+необходимое правило в левом окне
+<code>&lt;strong&gt;</code>{=html}Правила<code>&lt;/strong&gt;</code>{=html}. В правом окне
+<code>&lt;strong&gt;</code>{=html}Детали<code>&lt;/strong&gt;</code>{=html} можно изменить и сохранить
+следующие параметры:</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;ul class=&quot;Disc&quot;&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p><code>&lt;strong&gt;</code>{=html}Имя <code>&lt;/strong&gt;</code>{=html}правила для более удобной
+навигации.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p><code>&lt;strong&gt;</code>{=html}Описание<code>&lt;/strong&gt;</code>{=html} правила анализа
+(опциональный параметр).</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p>В поле <code>&lt;strong&gt;</code>{=html}Строка поиска<code>&lt;/strong&gt;</code>{=html} можно задать
+строку или регулярное выражение для поиска конфиденциальной информации.
+Для вновь добавляемого регулярного выражения необходимо нажать на кнопку
+«<code>&lt;img alt="Рисунок 69" height="13.6" src="assets/images/UG_files/image22.png" width="18.1" /&gt;</code>{=html}»
+рядом с заголовком «Строка поиска», в появившемся поле
+<code>&lt;strong&gt;</code>{=html}Значение<code>&lt;/strong&gt;</code>{=html} задать собственно новую
+строку или регулярное выражение ‎и нажать кнопку
+<code>&lt;strong&gt;</code>{=html}Сохранить<code>&lt;/strong&gt;</code>{=html}. Все ранее определенные
+регулярные выражения для данного правила перечислены в окне в списке
+ниже. Для удаления регулярного выражения нажмите значок
+«<code>&lt;img alt="Picture 117" height="12.0" src="assets/images/UG_files/image23.png" width="12.0" /&gt;</code>{=html}»
+справа в конце поля.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p><code>&lt;strong&gt;</code>{=html}Место поиска<code>&lt;/strong&gt;</code>{=html} --- активные места
+поиска отмечены значком
+«<code>&lt;img alt="Picture 118" height="14.6" src="assets/images/UG_files/image24.png" width="15.5" /&gt;</code>{=html}»,
+неактивные значком
+«<code>&lt;img alt="Рисунок 78" height="16.1" src="assets/images/UG_files/image25.png" width="15.4" /&gt;</code>{=html}».
+Для изменения необходимо нажать на нужный элемент. Его статус изменится
+и будет отображено уведомлении об успешном изменении.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p><code>&lt;strong&gt;</code>{=html}Модули<code>&lt;/strong&gt;</code>{=html}, для которых будет применяться
+данное правило. Любой из модулей сканирования в системе можно выбрать и
+добавить в правило. Включение и отключение происходит аналогично полю
+<code>&lt;strong&gt;</code>{=html}Место поиска<code>&lt;/strong&gt;</code>{=html}.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;li class=&quot;a0&quot;&gt;
+</code></pre>
+<p>Для сохранения всех произведенных изменений в регулярном выражении
+нажмите кнопку <code>&lt;strong&gt;</code>{=html}Сохранить<code>&lt;/strong&gt;</code>{=html} справа.</p>
+<pre><code>&lt;/li&gt;
+</code></pre>
+<pre><code>&lt;/ul&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a0&quot; style=&quot;text-align: center&quot;&gt;
+</code></pre>
+<p><code>&lt;img height="414" src="assets/images/image45.png" width="50%" /&gt;</code>{=html}</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a1&quot;&gt;
+</code></pre>
+<p>Для добавления нового правила анализа нажмите кнопку
+<code>&lt;strong&gt;</code>{=html}Добавить правило<code>&lt;/strong&gt;</code>{=html} справа вверху
+экрана. В появившемся окне <code>&lt;strong&gt;</code>{=html}Добавление нового
+правила<code>&lt;/strong&gt;</code>{=html} необходимо ввести имя и описание правила и
+нажать кнопку <code>&lt;strong&gt;</code>{=html}Добавить<code>&lt;/strong&gt;</code>{=html} внизу справа.
+Добавленное правило будет отображено в списке и доступно для дальнейшего
+редактирования.</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;p class=&quot;a5&quot; style=&quot;text-align: center&quot;&gt;
+</code></pre>
+<p><code>&lt;img alt="Изображение выглядит как текст
+Автоматически созданное описание" height="260" src="assets/images/UG_files/image27.png" width="50%" /&gt;</code>{=html}</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;h4 class=&quot;a5&quot; style=&quot;text-align: left;&quot;&gt;
+</code></pre>
+<p>Удаление правил анализа</p>
+<pre><code>&lt;/h4&gt;
+</code></pre>
+<pre><code>&lt;p&gt;
+</code></pre>
+<p>Удаление правил анализа может быть произведено на вкладке
+<code>&lt;strong&gt;</code>{=html}Правила<code>&lt;/strong&gt;</code>{=html}. Для редактирования правила
+нажмите на кнопку <code>&lt;strong&gt;</code>{=html}Удалить правило<code>&lt;/strong&gt;</code>{=html} в
+правом нижнем углу вкладки. ‎В появившемся окне <code>&lt;strong&gt;</code>{=html}Удаление
+правила<code>&lt;/strong&gt;</code>{=html} необходимо подтвердить или отменить удаление.</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;p style=&quot;text-align: center&quot;&gt;
+</code></pre>
+<p><code>&lt;img alt="Изображение выглядит как текст
+Автоматически созданное описание" height="167" src="assets/images/UG_files/image28.png" width="60%" /&gt;</code>{=html}</p>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;p style=&quot;text-align: center&quot;&gt;
+</code></pre>
+<pre><code>&lt;/p&gt;
+</code></pre>
+<pre><code>&lt;/body&gt;
+</code></pre>
+<pre><code>&lt;/html&gt;
+</code></pre>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../Osnovnoe_menu/" class="md-footer__link md-footer__link--prev" aria-label="Назад: Основное меню" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Назад
+              </span>
+              Основное меню
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Profile/" class="md-footer__link md-footer__link--next" aria-label="Вперед: Профиль" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Вперед
+              </span>
+              Профиль
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "content.tabs.link", "navigation.instant", "navigation.tabs", "navigation.tabs.sticky"], "translations": {"clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "search.config.lang": "ru", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "\u041f\u043e\u0438\u0441\u043a", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e # \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.fcfe8b6d.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.b1047164.min.js"></script>
+      
+    
+  </body>
+</html>

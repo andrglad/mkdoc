@@ -13,10 +13,10 @@ theme:
 nav:
   - Руководство пользователя:
     - Основные понятия: Osnovnye_ponyatiya.md
-    - О продукт: O_produkte.md
+    - О продукте: O_produkte.md
     - Требования к рабочему месту пользователя: Trebovaniya_k_rabochemu_mestu_polzovatelya.md
+    - Аутентификация пользователя: Autentifikaciya_polzovatelya.md
     - Работа с приложением:
-      - Аутентификация пользователя: Autentifikaciya_polzovatelya.md
       - Основное меню: Osnovnoe_menu.md
       - Проекты:
         - Правила: Pravila.md
