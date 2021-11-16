@@ -3,3 +3,12 @@ site_name: Test MkDocs
 theme:
   name: material
   language: ru
+
+nav:
+    - Home: 'index.md'
+    - 'User Guide':
+        - 'Writing your docs': 'first.md'
+        - 'Styling your docs': 'second.md'
+    - About:
+        - 'License': 'html.html'
+        - 'Release Notes': 'second.md'
