@@ -5,11 +5,18 @@ theme:
   language: ru
   features:
     - navigation.indexes
+    - content.tabs.link
+    - navigation.instant
 
 nav:
-  - content.tabs.link
-  - navigation.instant
-
+  - User Guide: 
+    - ug/index.md
+    - Основные понятия: ug/Osnovnye_ponyatiya.md
+    - О продукте: ug/O_produkte.md
+    - Требования к рабочему месту пользователя: ug/Trebovaniya_k_rabochemu_mestu_polzovatelya.md
+  - Введение:
+    - ug/index.md
+    - Page 3: ug/page3.md
 
 plugins:
   - search:
